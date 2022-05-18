@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TuVan app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="trangchu">Trang chủ</string>
+    <string name="khaosat">Khảo sát</string>
+    <string name="taikhoan">Tài khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="diendan">Diễn đàn</string>
+    <string name="uommam">Ươm mầm</string>
+    <string name="_5_b_quy_t_gi_p_v_t_qua_c_m_x_c_ti_u_c_c">5 bí quyết giúp vượt qua cảm xúc tiêu cực <a href="https://www.youtube.com/watch?v=EOp83WMxQ4E&amp;t=9s"></a></string>
+    <string name="nh_h_ng_c_a_t_th_ng_l_n_t_m_l_v_s_c_kh_e">Ảnh hưởng của tư thế ngủ lên tâm lí và sức khỏe <a href="https://plo.vn/anh-huong-cua-tu-the-ngu-len-tam-ly-va-suc-khoe-post343627.html"></a> </string>
+</resources>

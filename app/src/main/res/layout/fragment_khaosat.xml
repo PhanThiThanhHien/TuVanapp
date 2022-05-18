@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.KhaoSat.KhaoSatFragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bài kiểm tra mức độ trầm cảm"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Tôi cảm thấy hạnh phúc"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <RadioGroup
+                        android:id="@+id/rdoGr1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rdo10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu như không"/>
+                        <RadioButton
+                            android:id="@+id/rdo11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Thỉnh thoảng"/>
+                        <RadioButton
+                            android:id="@+id/rdo12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Phần lớn thời gian"/>
+                        <RadioButton
+                            android:id="@+id/rdo13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu hết hoặc tất cả thời gian"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Tôi thấy lo lắng về chuyện học"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <RadioGroup
+                        android:id="@+id/rdoGr2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rdo20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu như không"/>
+                        <RadioButton
+                            android:id="@+id/rdo21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Thỉnh thoảng"/>
+                        <RadioButton
+                            android:id="@+id/rdo22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Phần lớn thời gian"/>
+                        <RadioButton
+                            android:id="@+id/rdo23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu hết hoặc tất cả thời gian"/>
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Tôi cảm thấy cô đơn"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <RadioGroup
+                        android:id="@+id/rdoGr3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rdo30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu như không"/>
+                        <RadioButton
+                            android:id="@+id/rdo31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Thỉnh thoảng"/>
+                        <RadioButton
+                            android:id="@+id/rdo32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Phần lớn thời gian"/>
+                        <RadioButton
+                            android:id="@+id/rdo33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu hết hoặc tất cả thời gian"/>
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Tôi thất vọng, không muốn làm gì cả"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <RadioGroup
+                        android:id="@+id/rdoGr4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rdo40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu như không"/>
+                        <RadioButton
+                            android:id="@+id/rdo41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Thỉnh thoảng"/>
+                        <RadioButton
+                            android:id="@+id/rdo42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Phần lớn thời gian"/>
+                        <RadioButton
+                            android:id="@+id/rdo43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu hết hoặc tất cả thời gian"/>
+                    </RadioGroup>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="5. Tôi cảm thất cha mẹ không thích tôi"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <RadioGroup
+                        android:id="@+id/rdoGr5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton
+                            android:id="@+id/rdo50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu như không"/>
+                        <RadioButton
+                            android:id="@+id/rdo51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Thỉnh thoảng"/>
+                        <RadioButton
+                            android:id="@+id/rdo52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Phần lớn thời gian"/>
+                        <RadioButton
+                            android:id="@+id/rdo53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Hầu hết hoặc tất cả thời gian"/>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnRdo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kiểm tra"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/ketqua"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

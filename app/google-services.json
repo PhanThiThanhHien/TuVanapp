@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "118434895128",
+    "firebase_url": "https://tuvan-84462-default-rtdb.firebaseio.com",
+    "project_id": "tuvan-84462",
+    "storage_bucket": "tuvan-84462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118434895128:android:44625743eb150b794f3a6d",
+        "android_client_info": {
+          "package_name": "com.example.tuvan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118434895128-kktujaup356g0iade5i5gibgmstl2plf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7WzlYQDyI8yqA3TFl0VxetPyFnY2V-jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118434895128-kktujaup356g0iade5i5gibgmstl2plf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118434895128:android:810cdf6f68574a184f3a6d",
+        "android_client_info": {
+          "package_name": "com.example.tuvanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118434895128-kktujaup356g0iade5i5gibgmstl2plf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7WzlYQDyI8yqA3TFl0VxetPyFnY2V-jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118434895128-kktujaup356g0iade5i5gibgmstl2plf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118434895128:android:45ce16cc48be1c564f3a6d",
+        "android_client_info": {
+          "package_name": "com.example.tuvantamli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118434895128-kktujaup356g0iade5i5gibgmstl2plf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7WzlYQDyI8yqA3TFl0VxetPyFnY2V-jI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118434895128-kktujaup356g0iade5i5gibgmstl2plf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

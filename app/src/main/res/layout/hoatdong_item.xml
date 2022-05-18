@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@color/purple_200">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/hd_img"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@mipmap/regbg"
+            app:riv_corner_radius="14dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết bạn mới có khó không?"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/hd_tt"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:id="@+id/hd_adr"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thời gian"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:id="@+id/hd_time"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
